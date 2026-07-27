@@ -41,7 +41,6 @@ const HowItWorks = () => {
     >
       <div className="max-w-7xl mx-auto px-6">
 
-        {/* Heading */}
         <div className="text-center mb-16">
           <p
             className={`uppercase tracking-[4px] font-semibold ${
@@ -75,7 +74,6 @@ const HowItWorks = () => {
           </p>
         </div>
 
-        {/* Steps */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
 
           {steps.map((step, index) => (
@@ -87,7 +85,6 @@ const HowItWorks = () => {
                   : "bg-[#171717] border border-gray-800"
               }`}
             >
-              {/* Step Number */}
               <div
                 className={`absolute top-4 right-4 w-8 h-8 rounded-full flex items-center justify-center text-sm font-bold ${
                   theme === "light"
@@ -98,7 +95,6 @@ const HowItWorks = () => {
                 {index + 1}
               </div>
 
-              {/* Icon */}
               <div
                 className={`w-20 h-20 mx-auto rounded-full flex items-center justify-center mb-6 ${
                   theme === "light"

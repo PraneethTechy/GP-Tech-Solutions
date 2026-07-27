@@ -53,7 +53,6 @@ const Services = () => {
     >
       <div className="max-w-7xl mx-auto px-6">
 
-        {/* Heading */}
         <div className="text-center mb-16">
 
           <p
@@ -89,7 +88,6 @@ const Services = () => {
 
         </div>
 
-        {/* Cards */}
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
 

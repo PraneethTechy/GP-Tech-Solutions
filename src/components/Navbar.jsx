@@ -30,7 +30,6 @@ const Navbar = () => {
       >
         <div className="max-w-7xl mx-auto h-full flex items-center justify-between px-6">
 
-          {/* Logo */}
           <a href="#" className="flex items-center gap-3">
             <div
               className={`w-12 h-12 rounded-full flex items-center justify-center text-white font-bold text-xl ${

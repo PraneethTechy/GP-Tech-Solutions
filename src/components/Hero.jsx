@@ -12,7 +12,6 @@ const Hero = () => {
         theme === "light" ? "bg-white" : "bg-black"
       }`}
     >
-      {/* Background Blur */}
       <div
         className={`absolute top-20 left-10 w-72 h-72 rounded-full blur-[120px] opacity-30 ${
           theme === "light" ? "bg-red-300" : "bg-blue-500"
@@ -27,10 +26,8 @@ const Hero = () => {
 
       <div className="max-w-7xl mx-auto px-6 lg:px-8 min-h-[calc(100vh-80px)] flex flex-col-reverse lg:flex-row items-center justify-between">
 
-        {/* Left Side */}
         <div className="w-full lg:w-1/2 py-10 text-center lg:text-left">
 
-          {/* Badge */}
           <div
             className={`inline-flex items-center gap-2 px-4 py-2 rounded-full mb-6 ${
               theme === "light"
@@ -78,7 +75,6 @@ const Hero = () => {
             faster than ever before.
           </p>
 
-          {/* Buttons */}
           <div className="flex flex-col sm:flex-row gap-5 mt-10 justify-center lg:justify-start">
             <button
               className={`px-8 py-4 rounded-xl font-semibold shadow-lg transition hover:scale-105 text-white ${
@@ -101,7 +97,6 @@ const Hero = () => {
             </button>
           </div>
 
-          {/* Stats */}
           <div className="flex gap-10 mt-12 justify-center lg:justify-start flex-wrap">
 
             <div>
@@ -147,7 +142,6 @@ const Hero = () => {
 
         </div>
 
-        {/* Right Side */}
        <div className="w-full lg:w-1/2 flex justify-center items-center py-10">
   <img
     src={img}

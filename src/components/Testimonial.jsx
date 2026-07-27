@@ -41,7 +41,6 @@ const Testimonials = () => {
     >
       <div className="max-w-7xl mx-auto px-6">
 
-        {/* Heading */}
         <div className="text-center mb-16">
           <p
             className={`uppercase tracking-[4px] font-semibold ${
@@ -75,7 +74,6 @@ const Testimonials = () => {
           </p>
         </div>
 
-        {/* Cards */}
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
 
           {testimonials.map((item, index) => (
@@ -87,7 +85,6 @@ const Testimonials = () => {
                   : "bg-[#1A1A1A] border border-gray-800"
               }`}
             >
-              {/* Stars */}
               <div className="flex gap-1 text-yellow-400 mb-6">
                 {[...Array(5)].map((_, i) => (
                   <Star key={i} size={18} fill="currentColor" />

@@ -67,7 +67,6 @@ const Footer = () => {
             </p>
           </div>
 
-          {/* Quick Links */}
           <div>
             <h3 className="text-xl font-semibold mb-5">
               Quick Links
@@ -147,7 +146,6 @@ const Footer = () => {
             </ul>
           </div>
 
-          {/* Contact */}
           <div>
             <h3 className="text-xl font-semibold mb-5">
               Contact
@@ -197,7 +195,6 @@ const Footer = () => {
             </div>
           </div>
 
-          {/* Social */}
           <div>
 
             <h3 className="text-xl font-semibold mb-5">
@@ -234,7 +231,6 @@ const Footer = () => {
           </div>
         </div>
 
-        {/* Bottom */}
 
         <div
           className={`mt-16 pt-6 border-t flex flex-col md:flex-row justify-between items-center ${
