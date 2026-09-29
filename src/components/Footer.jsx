@@ -22,10 +22,8 @@ const Footer = () => {
     >
       <div className="max-w-7xl mx-auto px-6">
 
-        {/* Main Footer */}
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-12">
 
-          {/* Company */}
           <div>
             <div className="flex items-center gap-3 mb-5">
 
@@ -43,7 +41,7 @@ const Footer = () => {
                 <h2 className="text-2xl font-bold">Tech</h2>
 
                 <p
-                  className={`text-xs tracking-[4px] uppercase ${
+                  className={`text-xs tracking-[2px] uppercase ${
                     theme === "light"
                       ? "text-gray-400"
                       : "text-blue-300"

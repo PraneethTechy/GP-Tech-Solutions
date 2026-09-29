@@ -36,7 +36,7 @@ const Hero = () => {
             }`}
           >
             <Sparkles size={18} />
-            <span className="font-medium">
+            <span className="font-medium bg-amber-400">
               AI Powered Web Development
             </span>
           </div>
@@ -50,7 +50,7 @@ const Hero = () => {
             <br />
 
             <span
-              className={`bg-gradient-to-r bg-clip-text text-transparent ${
+              className={`bg-linear-to-r bg-clip-text text-transparent ${
                 theme === "light"
                   ? "from-[#F0383E] to-orange-500"
                   : "from-blue-400 to-cyan-400"
